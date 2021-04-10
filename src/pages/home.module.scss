@@ -1,1 +1,71 @@
-// TODO
+.content {
+    width: 720px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 30px  auto;
+
+    
+    a {
+        display: block;
+        width: 100%;
+        margin: 30px auto;
+       
+    
+
+        h1{
+            font-size:28px ;
+            line-height: 2rem;
+            color: var(--heading);
+            font-weight: 700;
+            margin-bottom:5px;
+        }
+
+        h2 {
+            font-size:18px;
+            line-height: 2rem;
+            color: var(--body);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            width: 500px;
+            display: flex;
+            flex-direction:row;
+            justify-content:start;
+            align-items: center;
+            margin-right: 2.5rem;
+           
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                margin-right:30px ;
+                
+                h3{
+                    margin-left: 20px;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    color: var(--info); 
+                }
+            }
+        }     
+    }
+
+    button {
+        border: none;
+        background: transparent;
+        font-size: 1.125rem;
+        font-weight: 600;
+        line-height: 21px;
+        color: var(--rosa);
+        margin-top: 4rem;
+    }
+}
+
+
+  

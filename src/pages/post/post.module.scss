@@ -1,1 +1,85 @@
-// TODO
+.container {
+    width: 100vw;
+    color: var(--body);
+    background:var(--background);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+width: 100%;
+height: 25rem;
+}
+
+
+.post {
+
+    width: 720px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 30px  auto;
+
+    h2 {
+        font-size: 2.25rem;
+        color: var(--heading);
+        margin: 3rem 0;
+    }
+
+    p, span, a, ul {
+        font-size: 1.25rem;
+        line-height: 1.8;
+        margin: 1.8rem 0;
+    }
+    a {
+        color: var(--rosa); 
+    }
+
+    strong {
+        font-weight: 700;
+        color: var(--body);
+    }
+    ul {
+        padding: 1.5rem;
+    }
+
+    li {
+        margin: 0.5rem 0;
+    }
+    div {
+        h1 {
+            font-size: 3rem;
+            color:var(--heading);
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+.footer {
+    width: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items: center;
+    margin-right: 2.5rem;
+   
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-right:30px ;
+        
+        h3{
+            margin-left: 20px;
+            font-weight: 400;
+            font-size: 1rem;
+            color: var(--info); 
+        }
+    }
+}

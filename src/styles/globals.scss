@@ -4,4 +4,21 @@
   padding: 0;
 }
 
-// TODO
+:root{
+  --rosa:#FF57B2;
+  --gray:#F8F8F8;
+  --background: #1A1D23;
+  --heading:#f8f8f8;
+  --info: #BBBBBB;
+  --body:#D7D7D7;
+}
+body, input, textarea, select, button {
+  font: 400 1rem "inter", sans-serif;
+}
+button {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,1 +1,12 @@
-// TODO
+
+.container {
+    width: 1440px;
+    color: var(--body);
+    background:var(--background);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
