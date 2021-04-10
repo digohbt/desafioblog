@@ -68,7 +68,7 @@ export default function Home({postsPagination}:HomeProps ) :JSX.Element {
       uid:post.uid,
       first_publication_date: format( new Date( post.first_publication_date),'dd MMM yyyy', { locale : ptBR}  )  ,
       data: {
-        title:post.data.titulo,
+        title:post.data.title,
         subtitle: post.data.subtitle,
         author: post.data.autor
       }
@@ -109,11 +109,9 @@ export default function Home({postsPagination}:HomeProps ) :JSX.Element {
           )
       })}
         
-        {nextPage && (   
-          <button type='button' className={styles.button} onClick={handleNextPage}>
-            Carregar mais posts
-          </button>
-        ) }
+        {nextPage ? (<button type='button' className={styles.button} onClick={handleNextPage}>
+           <h3>Carregar mais posts</h3>
+          </button>) : null}
         </section>
       </main>
     </body>
